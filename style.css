@@ -1,0 +1,84 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0b0b0b;
+  color: #fff;
+}
+
+.hero {
+  padding: 70px 20px;
+  text-align: center;
+  border-bottom: 1px solid #1f1f1f;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+.hero p {
+  color: #bdbdbd;
+  margin: 12px 0 24px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 22px;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.wrap {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px 60px;
+}
+
+.card {
+  background: #121212;
+  border: 1px solid #1f1f1f;
+  border-radius: 16px;
+  padding: 22px;
+  margin-top: 16px;
+}
+
+.card h2 { margin-top: 0; }
+
+form {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+input {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #2b2b2b;
+  background: #0b0b0b;
+  color: #fff;
+  width: 260px;
+}
+
+button {
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: none;
+  background: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.links a {
+  margin-right: 12px;
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
+.links a:hover { color: #fff; }
